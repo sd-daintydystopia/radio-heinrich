@@ -1,0 +1,412 @@
+/*CONSTANTS*/
+$OPACITY_NONE: rgba(255,255,255,0);
+$BG_GREY: #ededed;
+$BLUE_GREY_OVERLAY:  rgba(78,88,89, 0.88);
+
+/*FONTS*/
+@font-face {
+	font-family: OpenSansEB;
+	src: url(../fonts/OpenSans-ExtraBold.ttf)
+}
+@font-face {
+	font-family: OpenSansL;
+	src: url(../fonts/OpenSans-Light.ttf)
+}
+@font-face {
+	font-family: OpenSans;
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@import url("https://p.typekit.net/p.css?s=1&k=fbn0kju&ht=tk&f=630.632.634.636&a=2369223&app=typekit&e=css");
+
+@font-face {
+font-family:"pill-gothic-600mg";
+src:url("https://use.typekit.net/af/31e189/00000000000000003b9b29a3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/31e189/00000000000000003b9b29a3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/31e189/00000000000000003b9b29a3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"pill-gothic-600mg";
+src:url("https://use.typekit.net/af/cba5a1/00000000000000003b9b29a0/27/l?subset_id=2&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/cba5a1/00000000000000003b9b29a0/27/d?subset_id=2&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/cba5a1/00000000000000003b9b29a0/27/a?subset_id=2&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"pill-gothic-600mg";
+src:url("https://use.typekit.net/af/489701/00000000000000003b9b29a4/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/489701/00000000000000003b9b29a4/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/489701/00000000000000003b9b29a4/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"pill-gothic-600mg";
+src:url("https://use.typekit.net/af/5c4e73/00000000000000003b9b29a7/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff2"),url("https://use.typekit.net/af/5c4e73/00000000000000003b9b29a7/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff"),url("https://use.typekit.net/af/5c4e73/00000000000000003b9b29a7/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:800;
+}
+// html, body {
+// 	font-size: 14px;
+// }
+
+/*COLORS*/
+.grey {
+	background: #4E5859;
+	background : rgba(78, 88, 89, 1);
+  }
+  .yellow
+  {
+  background : #F2E75E;
+  background : rgba(242, 231, 94, 1);
+  }
+  
+  .green
+  {
+  background : #A0CB83;
+  background : rgba(160, 203, 131, 1);
+  }
+  
+  .blue
+  {
+  background : #5E96AD;
+  background : rgba(94, 150, 173, 1);
+  }
+  .petrol
+  {
+  background : #006373;
+  background : rgba(0, 99, 115, 1);
+  }
+  .darker
+  {
+  background: rgba(30,48,54,0.80);
+  }
+  
+  .lighter
+  {
+  background: rgba(255,255,255, 0.70);
+  }
+  
+  
+/*OVERWRITTEN STYLES*/
+.menu-link {
+	font-family: OpenSansEB;
+
+}
+header.sticky-header {
+	div#header-wrap {
+		width: 100vw;
+	}
+}
+div#wrapper {
+	background-color: $OPACITY_NONE;
+}
+
+/*CUSTOM CLASSES AND STYLES*/
+.nav-boxes-startpage {
+	margin-top: -50px;
+	&>div.container>div.row {
+	  min-height:  200px;
+	}
+
+}
+.color-box {
+	min-height: 5px;
+	margin-bottom: 5px;
+}
+.nav-startpage-item {
+	display: inline-flexbox;
+}
+.nav-boxes-item {
+	position: relative;
+	border-right: 5px solid #fff;
+	color: #fff;
+	font-weight: 700;
+	font-size: 28px;
+	letter-spacing: 2px;
+	&:hover {
+		filter: brightness(1.1);
+		color: #afafaf;
+		border-right-color: #afafaf;
+		hr {
+			border-color: #afafaf;
+		}
+	}
+	&:last-child {
+		border-right: none;
+	}
+	hr {
+		border-top: 2px solid #fff;
+		width: 33%;
+		margin-top: 45%;
+		margin-right: 66%;
+	}
+}
+.margin_top_bottom {
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+/*MEDIA QUERIES*/
+@media (min-width: 1440px) {
+	.container {
+		// max-width: 0;
+	}
+}
+/*WILKOMMEN*/
+section.welcome-startpage {
+	margin-top: 20px;
+	h1,h2 {
+		line-height: 1;
+		// font-size: 34px;
+		font-size: 2.4em;
+		font-family: "pill-gothic-600mg";
+		text-transform: uppercase;
+		margin: 0;
+	}
+	h1 {
+		font-weight: 700;
+		margin-bottom: 30px;
+	}
+	h2 {
+		font-weight: 300;
+	}
+	h3 {
+		// font-size: 24px;
+		line-height: 1;
+		margin-bottom: 0.5em;
+		font-size: 1.2em;
+		font-family: "pill-gothic-600mg";
+		font-weight: 700;
+	}
+	.welcome-container-image {
+		padding: 0;
+		position: relative;
+		img {
+			width: 100%;
+
+		}
+	}
+	span.bottom-link {
+		position: absolute;
+		bottom: 10px;
+		right: 20px;
+	}
+}
+/*TERMINVERGABE*/
+section.terminvergabe-startpage {
+	margin-bottom: 50px;
+	margin-top: 50px;
+	position: relative;
+	.terminvergabe-img-container {
+		height: 500px;
+		img {
+			height:200%;
+			width: auto;
+			
+		}
+
+	}
+	.terminvergabe-floating-button-container {
+		padding: 5%;
+		h1,h2,h3,h4 {
+			color:#fff;
+			font-family: OpenSans;
+		}
+		h4 {
+			font-family: OpenSansL;
+		}
+		height: 100%;
+		background-color: rgba(78,88,89, 0.88);
+		position: absolute;
+		right: 16.66667%;
+		top: 0;
+		text-align: center;
+		button {
+			border: 3px solid #fff;
+			color: #fff;
+			border-radius: 2px;
+			line-height: 2;
+			padding: 10px 20px;
+			margin: 20px auto;
+			background-color: rgba(78,88,89, 1);
+			width: 75%;
+
+		}
+	}
+
+}
+/*KOMPETENZEN*/
+section.kompetenzen-startpage {
+	margin-top: 50px;
+	h1,h2 {
+		line-height: 1;
+		// font-size: 34px;
+		font-size: 2.4em;
+		font-family: "pill-gothic-600mg";
+		text-transform: uppercase;
+		margin: 0;
+	}
+	h1 {
+		font-weight: 700;
+		margin-bottom: 30px;
+	}
+	h2 {
+		font-weight: 300;
+	}
+	.kompetenzen-component-container {
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 10px;
+		.kompetenzen-background-img {
+			width: 100%;
+			height: 100%;
+			background: url("https://placekeanu.com/500/400");
+		}
+		div.bottom-link {
+			background-color: #4E5859;
+			color: #fff;
+			font-weight: 700;
+			margin-top: 75%;
+			a {
+				text-transform: uppercase;
+			}
+		}
+
+	}
+}
+/*DISZIPLINEN*/
+section.disziplinen-startpage {
+	background-color: $BG_GREY;
+	margin-top: 50px;
+	div.col-4 {
+		padding-left: 5px;
+		padding-right: 5px;
+		&:first-child {
+			padding-left: 15px;
+		}
+		&:last-child {
+			padding-right: 15px;
+		}
+	}
+	.disziplinen-container-startpage {
+		margin-bottom: 50px;
+		position: relative;
+		border: 1px solid #4E5859;
+		padding: 10px;
+		div.icon-container {
+			width: 100px;
+			height:100px;
+			position: relative;
+			img {
+				width:100%;
+				height: 100%;
+			}
+		}
+		h4 {
+			margin-top: 50px;
+			font-family: "pill-gothic-600mg";
+			font-weight: 600;
+			font-size: 1.2em;
+			text-transform: uppercase;
+		}
+		div.bottom-link {
+			// bottom: 10px;
+			// right: 10px;
+			// position: absolute;
+			a {
+				font-family: OpenSansEB;
+				font-size: 0.8em;
+				font-weight: 500;
+				color: #4e5859;
+				text-transform: uppercase;
+				display: block;
+				letter-spacing: 5px;
+				text-align: right;
+				&::after {
+					content: ">>";
+					padding-left: 10px;
+				}
+			}
+		}
+	}
+}
+/*AKTUELLES STARTPAGE*/
+section.aktuelles_startpage {
+	position: relative;
+	background: url("images/Fotos/Start/titelbild.jpg");
+    background-position-x: 1710px;
+	background-position-y: 1240px;
+	color:#fff;
+	filter: saturate(0.33) contrast(1.5);
+	div.color_overlay {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: $BLUE_GREY_OVERLAY;
+	}
+	.margin-top-bottom {
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+	h1,h2,h3,h4 {
+		color: #fff;
+		font-family: "pill-gothic-600mg";
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+	h1 {
+		margin-top: 30px;
+	}
+	h4 {
+		font-weight: 300;
+	}
+	div.item {
+		position: relative;
+		div.date_wrap {
+			display: block;
+			width: 100%;
+			height: 20px;
+			span.date {
+				display: block;
+				position: absolute;
+				top:0;
+				right:0;
+				font-size: 0.8em;
+				font-family: "pill-gothic-600mg";
+				text-transform: uppercase;
+			}
+		}
+		p {
+			max-height: 240px;
+			overflow: hidden;
+			padding-bottom: 20px;
+			&:after {
+				content:"...";
+				position: absolute;
+				bottom: -20px;
+				left: 0;
+			}
+		}
+	}
+}
+/* GENERAL STUFF FOR ALL CONTAINERS */
+section {
+	
+	h1,h2 {
+		line-height: 1;
+		// font-size: 34px;
+		font-size: 2.4em;
+		font-family: "pill-gothic-600mg";
+		text-transform: uppercase;
+		margin: 0;
+	}
+	h1 {
+		font-weight: 700;
+		margin-bottom: 30px;
+	}
+	h2 {
+		font-weight: 300;
+		margin-top: 50px;
+	}
+}
+
+#logo svg {
+	width: 100%;
+	display: block;
+}
