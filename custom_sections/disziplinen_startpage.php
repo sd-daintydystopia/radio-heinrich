@@ -26,9 +26,9 @@
 			</div>
 		</div>
 
-		<div class="row">
+		<div class="row row-cols-lg-3 row-cols-sm-1">
 
-			<div class=" col-4 ">
+			<div class=" col ">
 				<div class=" disziplinen-container-startpage">
 
 					<div class="icon-container">
@@ -44,7 +44,7 @@
 				</div>
 			</div>
 
-			<div class=" col-4 ">
+			<div class=" col ">
 				<div class="disziplinen-container-startpage">
 					<div class="icon-container">
 						<img src="images/icons/disziplinen/nuklearmedizin.svg" alt="">
@@ -59,7 +59,7 @@
 				</div>
 			</div>
 
-			<div class=" col-4 ">
+			<div class=" col ">
 				<div class="disziplinen-container-startpage">
 					<div class="icon-container">
 						<img src="images/icons/disziplinen/strahlentherapie.svg" alt="">

@@ -54,9 +54,9 @@
 
 							<!-- Top Search
 							============================================= -->
-							<div id="top-search" class="header-misc-icon">
+							<!-- <div id="top-search" class="header-misc-icon">
 								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
-							</div><!-- #top-search end -->
+							</div>-->   <!-- #top-search end -->
 
 							<!-- Top Cart
 							============================================= -->
@@ -134,9 +134,9 @@
 
 						</nav><!-- #primary-menu end -->
 
-						<form class="top-search-form" action="search.html" method="get">
+						<!-- <form class="top-search-form" action="search.html" method="get">
 							<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
-						</form>
+						</form> -->
 
 					</div>
 				</div>
@@ -156,7 +156,7 @@
 				<div class="color-box col-3 container petrol"></div>
 			</div>
 			<div class=" clearfix col-12">
-				<img src="http://placehold.it/1680x500/09f/fff.png?text=RADIOLOGIE-HEINRICHSALLEE" alt="">
+				<img src="images/header.png" alt="">
 				
 			</div>
 
@@ -203,7 +203,7 @@
 		<!-- Include aktuelles from custom_sections/aktuelles/aktuelles_startpage.php 
 		============================================= -->
 		<?php 
-			include 'custom_sections/aktuelles/aktuelles_startpage.php';
+			include 'custom_sections/aktuelles_startpage.php';
 		?>
 
 		<!-- Include Team from custom_sections/team_startpage.php 
@@ -503,8 +503,14 @@
 	<script src="parallax_js/parallax.js"></script>
 
 	<script>
-		$('.parallax-window').parallax({imageSrc: 'images/parallax/2.jpg'});
-		
+		$('.parallax-window').parallax({
+			imageSrc: 'images/terminvergabe.png',
+			naturalWidth: 1680,
+    		naturalHeight: 350
+		});
+
+		console.log($('.parallax-window').data());
+
 		$('.owl-carousel').owlCarousel({
 			loop:true,
 			margin:10,

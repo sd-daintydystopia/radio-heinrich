@@ -62,6 +62,14 @@
   background: rgba(255, 255, 255, 0.7); }
 
 /*OVERWRITTEN STYLES*/
+.menu-container > li.menu-item:hover a.menu-link {
+  color: #4e5859;
+  filter: brightness(1.5); }
+
+a:hover, button:hover {
+  color: #4e5859;
+  filter: brightness(1.5); }
+
 .menu-link {
   font-family: OpenSansEB; }
 
@@ -92,11 +100,10 @@ div#wrapper {
   font-size: 28px;
   letter-spacing: 2px; }
   .nav-boxes-item:hover {
-    filter: brightness(1.1);
     color: #afafaf;
-    border-right-color: #afafaf; }
-    .nav-boxes-item:hover hr {
-      border-color: #afafaf; }
+    filter: brightness(1); }
+  .nav-boxes-item:hover:not(.yellow) {
+    filter: brightness(1.1); }
   .nav-boxes-item:last-child {
     border-right: none; }
   .nav-boxes-item hr {
@@ -105,11 +112,21 @@ div#wrapper {
     margin-top: 45%;
     margin-right: 66%; }
 
-.margin_top_bottom {
-  margin-bottom: 50px;
-  margin-top: 50px; }
+.padding_top_bottom {
+  padding-bottom: 50px;
+  padding-top: 50px; }
+
+.padding_bottom {
+  padding-bottom: 50px;
+  padding-top: 0; }
 
 /*MEDIA QUERIES*/
+@media (max-width: 992px) {
+  section.terminvergabe-startpage div.terminvergabe-floating-button-container {
+    right: 0; } }
+@media (max-width: 768px) {
+  html body div.hidden-sm-down {
+    display: none; } }
 /*WILKOMMEN*/
 section.welcome-startpage {
   margin-top: 20px; }
@@ -135,10 +152,13 @@ section.welcome-startpage {
     position: relative; }
     section.welcome-startpage .welcome-container-image img {
       width: 100%; }
-  section.welcome-startpage span.bottom-link {
+  section.welcome-startpage span.bottom-link a {
     position: absolute;
     bottom: 10px;
-    right: 20px; }
+    right: 20px;
+    color: #4e5859; }
+    section.welcome-startpage span.bottom-link a:hover {
+      filter: brightness(1.5); }
 
 /*TERMINVERGABE*/
 section.terminvergabe-startpage {
@@ -191,16 +211,77 @@ section.kompetenzen-startpage {
     position: relative;
     overflow: hidden;
     margin-bottom: 10px; }
-    section.kompetenzen-startpage .kompetenzen-component-container .kompetenzen-background-img {
+    section.kompetenzen-startpage .kompetenzen-component-container div.kompetenzen-background-img.img_1 {
+      background: url("../images/kompetenzen/img_1.png");
       width: 100%;
-      height: 100%;
-      background: url("https://placekeanu.com/500/400"); }
+      height: 287px;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    section.kompetenzen-startpage .kompetenzen-component-container div.kompetenzen-background-img.img_2 {
+      background: url("../images/kompetenzen/img_2.png");
+      width: 100%;
+      height: 287px;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    section.kompetenzen-startpage .kompetenzen-component-container div.kompetenzen-background-img.img_3 {
+      background: url("../images/kompetenzen/img_3.png");
+      width: 100%;
+      height: 287px;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    section.kompetenzen-startpage .kompetenzen-component-container div.kompetenzen-background-img.img_4 {
+      background: url("../images/kompetenzen/img_4.png");
+      width: 100%;
+      height: 287px;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    section.kompetenzen-startpage .kompetenzen-component-container div.kompetenzen-background-img.img_5 {
+      background: url("../images/kompetenzen/img_5.png");
+      width: 100%;
+      height: 287px;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    section.kompetenzen-startpage .kompetenzen-component-container div.kompetenzen-background-img.img_6 {
+      background: url("../images/kompetenzen/img_6.png");
+      width: 100%;
+      height: 287px;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    section.kompetenzen-startpage .kompetenzen-component-container div.kompetenzen-background-img.img_7 {
+      background: url("../images/kompetenzen/img_7.png");
+      width: 100%;
+      height: 287px;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    section.kompetenzen-startpage .kompetenzen-component-container div.kompetenzen-background-img.img_8 {
+      background: url("../images/kompetenzen/img_8.png");
+      width: 100%;
+      height: 287px;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    section.kompetenzen-startpage .kompetenzen-component-container div.kompetenzen-background-img:hover {
+      transition: filter 0.2s;
+      filter: saturate(0);
+      cursor: pointer; }
     section.kompetenzen-startpage .kompetenzen-component-container div.bottom-link {
+      position: absolute;
       background-color: #4E5859;
       color: #fff;
+      filter: saturate(1) !important;
       font-weight: 700;
-      margin-top: 75%; }
+      bottom: 0;
+      width: 100%;
+      height: 75px;
+      line-height: 1;
+      font-size: 1.6em;
+      padding-left: 10px;
+      padding-top: 10px; }
+      section.kompetenzen-startpage .kompetenzen-component-container div.bottom-link span {
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 400; }
       section.kompetenzen-startpage .kompetenzen-component-container div.bottom-link a {
+        font-size: 1.7em;
         text-transform: uppercase; }
 
 /*DISZIPLINEN*/
@@ -218,7 +299,8 @@ section.disziplinen-startpage {
     margin-bottom: 50px;
     position: relative;
     border: 1px solid #4E5859;
-    padding: 10px; }
+    padding: 10px;
+    min-height: 420px; }
     section.disziplinen-startpage .disziplinen-container-startpage div.icon-container {
       width: 100px;
       height: 100px;
@@ -240,7 +322,10 @@ section.disziplinen-startpage {
       text-transform: uppercase;
       display: block;
       letter-spacing: 5px;
-      text-align: right; }
+      text-align: right;
+      position: absolute;
+      bottom: 15px;
+      right: 15px; }
       section.disziplinen-startpage .disziplinen-container-startpage div.bottom-link a::after {
         content: ">>";
         padding-left: 10px; }
@@ -266,8 +351,6 @@ section.aktuelles_startpage {
     font-family: "pill-gothic-600mg";
     text-transform: uppercase;
     letter-spacing: 1px; }
-  section.aktuelles_startpage h1 {
-    margin-top: 30px; }
   section.aktuelles_startpage h4 {
     font-weight: 300; }
   section.aktuelles_startpage div.item {
@@ -293,6 +376,10 @@ section.aktuelles_startpage {
         position: absolute;
         bottom: -20px;
         left: 0; }
+
+/*SECTION TEAM*/
+section.team_startpage h2 {
+  margin-top: 0; }
 
 /* GENERAL STUFF FOR ALL CONTAINERS */
 section h1, section h2 {

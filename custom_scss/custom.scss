@@ -83,8 +83,17 @@ font-display:auto;font-style:normal;font-weight:800;
   background: rgba(255,255,255, 0.70);
   }
   
-  
 /*OVERWRITTEN STYLES*/
+.menu-container > li.menu-item:hover {
+	a.menu-link {
+		color: #4e5859;
+		filter: brightness(1.5);
+	}
+}
+a:hover, button:hover {
+	color: #4e5859;
+	filter: brightness(1.5);
+}
 .menu-link {
 	font-family: OpenSansEB;
 
@@ -99,6 +108,7 @@ div#wrapper {
 }
 
 /*CUSTOM CLASSES AND STYLES*/
+
 .nav-boxes-startpage {
 	margin-top: -50px;
 	&>div.container>div.row {
@@ -121,12 +131,12 @@ div#wrapper {
 	font-size: 28px;
 	letter-spacing: 2px;
 	&:hover {
-		filter: brightness(1.1);
 		color: #afafaf;
-		border-right-color: #afafaf;
-		hr {
-			border-color: #afafaf;
-		}
+		filter: brightness(1);
+	}
+	&:hover:not(.yellow) {
+		filter: brightness(1.1);
+		
 	}
 	&:last-child {
 		border-right: none;
@@ -138,14 +148,29 @@ div#wrapper {
 		margin-right: 66%;
 	}
 }
-.margin_top_bottom {
-	margin-bottom: 50px;
-	margin-top: 50px;
+.padding_top_bottom {
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.padding_bottom {
+	padding-bottom: 50px;
+	padding-top: 0;
 }
 /*MEDIA QUERIES*/
 @media (min-width: 1440px) {
 	.container {
 		// max-width: 0;
+	}
+}
+@media (max-width: 992px) {
+	section.terminvergabe-startpage div.terminvergabe-floating-button-container {
+		right: 0 ;
+	}
+
+}
+@media (max-width: 768px) {
+	html body div.hidden-sm-down {
+		display:none;
 	}
 }
 /*WILKOMMEN*/
@@ -182,10 +207,14 @@ section.welcome-startpage {
 
 		}
 	}
-	span.bottom-link {
+	span.bottom-link a {
 		position: absolute;
 		bottom: 10px;
 		right: 20px;
+		color: #4e5859;
+		&:hover {
+			filter: brightness(1.5);
+		}
 	}
 }
 /*TERMINVERGABE*/
@@ -234,6 +263,7 @@ section.terminvergabe-startpage {
 /*KOMPETENZEN*/
 section.kompetenzen-startpage {
 	margin-top: 50px;
+		
 	h1,h2 {
 		line-height: 1;
 		// font-size: 34px;
@@ -248,26 +278,49 @@ section.kompetenzen-startpage {
 	}
 	h2 {
 		font-weight: 300;
-	}
+	}	
 	.kompetenzen-component-container {
 		position: relative;
 		overflow: hidden;
 		margin-bottom: 10px;
-		.kompetenzen-background-img {
-			width: 100%;
-			height: 100%;
-			background: url("https://placekeanu.com/500/400");
+		// Iterating throgh the files in the filder o get the backgroundImg urls
+		@for $i from 1 through 8 {
+			div.kompetenzen-background-img.img_#{$i} {
+				background: url("../images/kompetenzen/img_#{$i}.png");
+				width: 100%;
+				height: 287px;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
 		}
-		div.bottom-link {
+		div.kompetenzen-background-img:hover {
+			transition: filter 0.2s;
+			filter: saturate(0);
+			cursor: pointer;
+		}
+		div.bottom-link,  {
+			position: absolute;
 			background-color: #4E5859;
 			color: #fff;
+			filter: saturate(1) !important;
 			font-weight: 700;
-			margin-top: 75%;
+			bottom: 0;
+			width: 100%;
+			height: 75px;
+			line-height: 1;
+			font-size: 1.6em;
+			padding-left: 10px;
+			padding-top: 10px;
+			span {
+				color:#fff;
+				font-size: 1.2rem;
+				font-weight: 400;
+			}
 			a {
+				font-size: 1.7em;
 				text-transform: uppercase;
 			}
 		}
-
 	}
 }
 /*DISZIPLINEN*/
@@ -289,6 +342,7 @@ section.disziplinen-startpage {
 		position: relative;
 		border: 1px solid #4E5859;
 		padding: 10px;
+		min-height: 420px;
 		div.icon-container {
 			width: 100px;
 			height:100px;
@@ -306,9 +360,6 @@ section.disziplinen-startpage {
 			text-transform: uppercase;
 		}
 		div.bottom-link {
-			// bottom: 10px;
-			// right: 10px;
-			// position: absolute;
 			a {
 				font-family: OpenSansEB;
 				font-size: 0.8em;
@@ -318,6 +369,9 @@ section.disziplinen-startpage {
 				display: block;
 				letter-spacing: 5px;
 				text-align: right;
+				position: absolute;
+				bottom: 15px;
+				right: 15px;
 				&::after {
 					content: ">>";
 					padding-left: 10px;
@@ -350,9 +404,6 @@ section.aktuelles_startpage {
 		text-transform: uppercase;
 		letter-spacing: 1px;
 	}
-	h1 {
-		margin-top: 30px;
-	}
 	h4 {
 		font-weight: 300;
 	}
@@ -383,6 +434,12 @@ section.aktuelles_startpage {
 				left: 0;
 			}
 		}
+	}
+}
+/*SECTION TEAM*/
+section.team_startpage {
+	h2 {
+		margin-top: 0;
 	}
 }
 /* GENERAL STUFF FOR ALL CONTAINERS */

@@ -10,8 +10,8 @@
 
 <section class="welcome-startpage row no-gutters">
 	<div class="container col-8">
-		<div class="welcome-subcontainer row">
-			<div class="container col-6 welcome-container-text">
+		<div class="welcome-subcontainer row row-cols-lg-2 row-cols-sm-1">
+			<div class="container col welcome-container-text">
 				<h2><?php echo $h2; ?></h2>
 				<h1><?php echo $h1; ?></h1>
 				<p><?php echo $text_block1; ?></p>
@@ -21,8 +21,8 @@
 					<a href="#">lernen sie uns kennen ></a>
 				</span>
 			</div>
-			<div class="col-6 welcome-container-image">
-				<img src="https://placekeanu.com/500/400" alt="">
+			<div class="col welcome-container-image hidden-sm-down">
+				<img src="images/welcome.png" alt="">
 			</div>
 		</div>
 	</div>
