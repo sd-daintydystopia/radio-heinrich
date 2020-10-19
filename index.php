@@ -211,20 +211,11 @@
 			include 'custom_sections/impressionen_startpage.php';
 		?>
 
-
-
-
-		<!-- Content
+		<!-- Include Map from custom_sections/map_startpage.php 
 		============================================= -->
-		<!-- <section id="content">
-			<div class="content-wrap">
-
-			
-				
-			</div>
-		</section> -->
-		<!-- #content end -->
-
+		<?php
+			include 'custom_sections/map_startpage.php'
+		?>
 		<!-- Footer
 		============================================= -->
 
@@ -265,14 +256,20 @@
 			items:2,
 			
 		});
-	
+		// $('.impressionen-img').each(function() {
+		// 	$(this).width($(this)[0].naturalWidth));
 
+		// })
+		
 		$('#oc-slider-2').owlCarousel({
 			loop:true,
 			margin:10,
 			items:6,
 			autoWidth: true,
 		});
+
+
+	
 	</script>
 
 </body>
