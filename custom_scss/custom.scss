@@ -231,6 +231,7 @@ section.terminvergabe-startpage {
 		}
 
 	}
+	
 	.terminvergabe-floating-button-container {
 		padding: 5%;
 		h1,h2,h3,h4 {
@@ -388,6 +389,9 @@ section.aktuelles_startpage {
 	background-position-y: 1240px;
 	color:#fff;
 	filter: saturate(0.33) contrast(1.5);
+	.container {
+		margin-top: 0;
+	}
 	div.color_overlay {
 		position: absolute;
 		width: 100%;
@@ -442,29 +446,17 @@ section.team_startpage {
 		margin-top: 0;
 	}
 }
-/* GENERAL STUFF FOR ALL CONTAINERS */
-section {
-	.container {
-		margin-top: 30px;
+/*IMPRESSIONEN*/
+section.praxis_impressionen {
+	div.item {
+		img {
+			height: fit-content;
+			width: auto;
+		}
+
 	}
-	h1,h2 {
-		line-height: 1;
-		// font-size: 34px;
-		font-size: 2.4em;
-		font-family: "pill-gothic-600mg";
-		text-transform: uppercase;
-		margin: 0;
-	}
-	h1 {
-		font-weight: 700;
-		margin-bottom: 30px;
-	}
-	h2 {
-		font-weight: 300;
-		// margin-top: 50px;
-	}
-	
 }
+
 
 /*FOOTER*/
 #footer {
@@ -495,6 +487,30 @@ section {
 		width: 25%;
 		left: 75%;
 	}
+}
+
+/* GENERAL STUFF FOR ALL CONTAINERS */
+section {
+	.container {
+		margin-top: 30px;
+	}
+	h1,h2 {
+		line-height: 1;
+		// font-size: 34px;
+		font-size: 2.4em;
+		font-family: "pill-gothic-600mg";
+		text-transform: uppercase;
+		margin: 0;
+	}
+	h1 {
+		font-weight: 700;
+		margin-bottom: 30px;
+	}
+	h2 {
+		font-weight: 300;
+		// margin-top: 50px;
+	}
+	
 }
 
 #logo svg {

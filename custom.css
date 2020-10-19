@@ -338,6 +338,8 @@ section.aktuelles_startpage {
   background-position-y: 1240px;
   color: #fff;
   filter: saturate(0.33) contrast(1.5); }
+  section.aktuelles_startpage .container {
+    margin-top: 0; }
   section.aktuelles_startpage div.color_overlay {
     position: absolute;
     width: 100%;
@@ -381,20 +383,10 @@ section.aktuelles_startpage {
 section.team_startpage h2 {
   margin-top: 0; }
 
-/* GENERAL STUFF FOR ALL CONTAINERS */
-section .container {
-  margin-top: 30px; }
-section h1, section h2 {
-  line-height: 1;
-  font-size: 2.4em;
-  font-family: "pill-gothic-600mg";
-  text-transform: uppercase;
-  margin: 0; }
-section h1 {
-  font-weight: 700;
-  margin-bottom: 30px; }
-section h2 {
-  font-weight: 300; }
+/*IMPRESSIONEN*/
+section.praxis_impressionen div.item img {
+  height: fit-content;
+  width: auto; }
 
 /*FOOTER*/
 #footer .container {
@@ -418,6 +410,21 @@ section h2 {
   right: 0;
   width: 25%;
   left: 75%; }
+
+/* GENERAL STUFF FOR ALL CONTAINERS */
+section .container {
+  margin-top: 30px; }
+section h1, section h2 {
+  line-height: 1;
+  font-size: 2.4em;
+  font-family: "pill-gothic-600mg";
+  text-transform: uppercase;
+  margin: 0; }
+section h1 {
+  font-weight: 700;
+  margin-bottom: 30px; }
+section h2 {
+  font-weight: 300; }
 
 #logo svg {
   width: 100%;
