@@ -444,7 +444,9 @@ section.team_startpage {
 }
 /* GENERAL STUFF FOR ALL CONTAINERS */
 section {
-	
+	.container {
+		margin-top: 30px;
+	}
 	h1,h2 {
 		line-height: 1;
 		// font-size: 34px;
@@ -459,7 +461,39 @@ section {
 	}
 	h2 {
 		font-weight: 300;
-		margin-top: 50px;
+		// margin-top: 50px;
+	}
+	
+}
+
+/*FOOTER*/
+#footer {
+	.container {
+		padding-top: 15px;
+	}
+	h3, a {
+		color: #afafaf;
+		font-family: openSans;
+		font-size: 1em;
+	}
+	h3 {
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+	a {
+		display: block;
+		font-weight:300; 
+	}
+	.footer-logo-wrp {
+		position:relative;
+		height: 30px;
+	}
+	.footer-logo {
+		position: absolute;
+		margin-bottom: 0;
+		right:0;
+		width: 25%;
+		left: 75%;
 	}
 }
 
