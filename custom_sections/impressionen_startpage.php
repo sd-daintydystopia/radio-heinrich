@@ -20,18 +20,18 @@
 	</div>
 	<div class="container col-12">
 		<div id="oc-slider-2" class="row owl-carousel carousel-widget owl-loaded owl-drag with-carousel-dots">
-			<div class="item"><img src="<?php echo $img_src1; ?>" alt="" class="impressionen-img"></div>
-			<div class="item"><img src="<?php echo $img_src2; ?>" alt="" class="impressionen-img"></div>
-			<div class="item"><img src="<?php echo $img_src3; ?>" alt="" class="impressionen-img"></div>
-			<div class="item"><img src="<?php echo $img_src1; ?>" alt="" class="impressionen-img"></div>
-			<div class="item"><img src="<?php echo $img_src2; ?>" alt="" class="impressionen-img"></div>
-			<div class="item"><img src="<?php echo $img_src3; ?>" alt="" class="impressionen-img"></div>
-			<div class="item"><img src="<?php echo $img_src1; ?>" alt="" class="impressionen-img"></div>
-			<div class="item"><img src="<?php echo $img_src2; ?>" alt="" class="impressionen-img"></div>
-			<div class="item"><img src="<?php echo $img_src3; ?>" alt="" class="impressionen-img"></div>
-			<div class="item"><img src="<?php echo $img_src1; ?>" alt="" class="impressionen-img"></div>
-			<div class="item"><img src="<?php echo $img_src2; ?>" alt="" class="impressionen-img"></div>
-			<div class="item"><img src="<?php echo $img_src3; ?>" alt="" class="impressionen-img"></div>
+			<div class="item"><img style="width:250px"  src="<?php echo $img_src1; ?>" alt="" class="impressionen-img"></div>
+			<div class="item"><img style="width:250px" src="<?php echo $img_src2; ?>" alt="" class="impressionen-img"></div>
+			<div class="item"><img style="width:350px" src="<?php echo $img_src3; ?>" alt="" class="impressionen-img"></div>
+			<div class="item"><img style="width:250px" src="<?php echo $img_src1; ?>" alt="" class="impressionen-img"></div>
+			<div class="item"><img style="width:250px" src="<?php echo $img_src2; ?>" alt="" class="impressionen-img"></div>
+			<div class="item"><img style="width:350px" src="<?php echo $img_src3; ?>" alt="" class="impressionen-img"></div>
+			<div class="item"><img style="width:250px" src="<?php echo $img_src1; ?>" alt="" class="impressionen-img"></div>
+			<div class="item"><img style="width:250px" src="<?php echo $img_src2; ?>" alt="" class="impressionen-img"></div>
+			<div class="item"><img style="width:350px" src="<?php echo $img_src3; ?>" alt="" class="impressionen-img"></div>
+			<div class="item"><img style="width:250px" src="<?php echo $img_src1; ?>" alt="" class="impressionen-img"></div>
+			<div class="item"><img style="width:250px" src="<?php echo $img_src2; ?>" alt="" class="impressionen-img"></div>
+			<div class="item"><img style="width:350px" src="<?php echo $img_src3; ?>" alt="" class="impressionen-img"></div>
 		</div>
 	</div>
 	

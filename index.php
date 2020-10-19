@@ -265,15 +265,14 @@
 			items:2,
 			
 		});
-		$('.imporessionen-img').each(function() {
-			console.log($(this));
-		})
+	
 
 		$('#oc-slider-2').owlCarousel({
 			loop:true,
 			margin:10,
 			items:6,
-		})
+			autoWidth: true,
+		});
 	</script>
 
 </body>
