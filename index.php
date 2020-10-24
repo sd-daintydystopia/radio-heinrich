@@ -38,7 +38,7 @@
 		<header id="header" class="full-header">
 			<div id="header-wrap" class="row">
 				
-				<div class="container col-8">
+				<div class="container col-10">
 					<div class="header-row">
 
 						<!-- Logo

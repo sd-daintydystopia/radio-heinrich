@@ -13,8 +13,8 @@
 	$text_block_3 = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quibusdam architecto cum sunt maiores voluptatem est magnam molestias officiis quod repudiandae quidem dolor assumenda cumque ab veniam nihil, voluptas nisi?";
 ?>
 
-<section class="margin_top_bottom disziplinen-startpage row">
-	<div class="container col-8 ">
+<section class="disziplinen-startpage row">
+	<div class="margin-top-bottom container col-8 ">
 
 		<h2><?php echo $h2; ?></h2>
 		<h1><?php echo $h1; ?></h1>
