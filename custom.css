@@ -63,15 +63,19 @@
 
 /*OVERWRITTEN STYLES*/
 .menu-container > li.menu-item:hover a.menu-link {
-  color: #4e5859;
-  filter: brightness(1.5); }
+  color: #4e5859; }
 
 a:hover, button:hover {
   color: #4e5859;
   filter: brightness(1.5); }
 
 .menu-link {
-  font-family: OpenSansEB; }
+  font-family: OpenSansEB;
+  font-family: "pill-gothic-600mg";
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 2px;
+  font-weight: 700; }
 
 header.sticky-header div#header-wrap {
   width: 100vw; }
@@ -80,10 +84,14 @@ div#wrapper {
   background-color: rgba(255, 255, 255, 0); }
 
 /*CUSTOM CLASSES AND STYLES*/
+/*========= STARTPAGE =============*/
+#page-header-img {
+  height: 600px; }
+
 .nav-boxes-startpage {
   margin-top: -50px; }
   .nav-boxes-startpage > div.container > div.row {
-    min-height: 200px; }
+    min-height: 150px; }
 
 .color-box {
   min-height: 5px;
@@ -97,19 +105,18 @@ div#wrapper {
   border-right: 5px solid #fff;
   color: #fff;
   font-weight: 700;
-  font-size: 28px;
-  letter-spacing: 2px; }
+  font-size: 1.5em;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 0 5px 5px 5px; }
   .nav-boxes-item:hover {
-    color: #afafaf;
-    filter: brightness(1); }
-  .nav-boxes-item:hover:not(.yellow) {
-    filter: brightness(1.1); }
+    filter: drop-shadow(0px 3px 15px #839192); }
   .nav-boxes-item:last-child {
     border-right: none; }
   .nav-boxes-item hr {
     border-top: 2px solid #fff;
     width: 33%;
-    margin-top: 45%;
+    margin-top: 50%;
     margin-right: 66%; }
 
 .padding_top_bottom {
@@ -340,7 +347,7 @@ section.aktuelles_startpage {
   filter: saturate(0.33) contrast(1.5); }
   section.aktuelles_startpage .container {
     margin-top: 0; }
-  section.aktuelles_startpage div.color_overlay {
+  section.aktuelles_startpage div.color-overlay {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -388,7 +395,25 @@ section.praxis_impressionen div.item img {
   height: fit-content;
   width: auto; }
 
-/*FOOTER*/
+/* =================== SUBPAGES ========================*/
+section div.color-overlay-container {
+  height: 500px;
+  position: relative; }
+  section div.color-overlay-container div.color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(78, 88, 89, 0.88); }
+    section div.color-overlay-container div.color-overlay img {
+      width: 200px;
+      height: auto; }
+
+/*KOMPETENZEN*/
+section.row .kompetenzen-parallax .kompetenzen-overlay {
+  position: absolute;
+  height: 100%; }
+
+/*==================== FOOTER =========================*/
 #footer .container {
   padding-top: 15px; }
 #footer h3, #footer a {
@@ -411,8 +436,8 @@ section.praxis_impressionen div.item img {
   width: 25%;
   left: 75%; }
 
-/* GENERAL STUFF FOR ALL CONTAINERS */
-section .container {
+/*============== GENERAL STUFF FOR ALL CONTAINERS======== */
+section .container:not(.color-box, .color-overlay-container) {
   margin-top: 30px; }
 section h1, section h2 {
   line-height: 1;
@@ -425,6 +450,15 @@ section h1 {
   margin-bottom: 30px; }
 section h2 {
   font-weight: 300; }
+
+#wrapper #header #header-wrap div.container {
+  padding: 0 0; }
+  #wrapper #header #header-wrap div.container #logo {
+    border-right: none; }
+  #wrapper #header #header-wrap div.container ul {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0; }
 
 #logo svg {
   width: 100%;

@@ -4,7 +4,7 @@
 	$text_block2 = "Testen Sie jetzt unsere Online-Terminvergabe - bequem, schnell, immer erreichbar.";
 ?>
 <section class="row terminvergabe-startpage ">
-	<div class=" conatiner col-12 terminvergabe-img-container parallax-window" data-parallax="scroll" data-image-src="images/terminvergabe.png">
+	<div class=" conatiner col-12  parallax-window terminvergabe-img-container" data-parallax="scroll" data-image-src="images/terminvergabe.png">
 		<div class="row">
 			<div class="col-6"></div>
 			<!-- <img src="images/parallax/2.jpg" alt=""> -->

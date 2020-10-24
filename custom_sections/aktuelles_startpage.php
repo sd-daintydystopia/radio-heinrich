@@ -3,7 +3,7 @@
 
 ?>
 <section  class="row aktuelles_startpage">
-	<div class="color_overlay"></div>
+	<div class="color-overlay"></div>
 	<div class="padding_top_bottom container col-8 col-sm-10">
 		<div class=" row container row-cols-sm-1">
 			<div class="container col-12">

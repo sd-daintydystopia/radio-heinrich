@@ -15,7 +15,7 @@
 
 
 <section class="row aktuelles_startpage">
-<div class="color_overlay"></div>
+<div class="color-overlay"></div>
 
 	<div class="item_container container col-2">
 		<div class="item">

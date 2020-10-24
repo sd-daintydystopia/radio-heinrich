@@ -18,8 +18,8 @@
 								];
 ?>
 
-<section class="kompetenzen-startpage row-cols-sm-1 row">
-	<div class="container col-8 col-sm-10 clearfix">
+<section class="kompetenzen-startpage  row">
+	<div class="container col-8  clearfix">
 		<h2><?php echo $h2; ?></h2>
 		<h1><?php echo $h1; ?></h1>
 		<div class="row">
