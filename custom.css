@@ -296,7 +296,7 @@ section.kompetenzen-startpage {
       bottom: 0;
       width: 100%;
       height: 75px;
-      line-height: 1.2;
+      line-height: 1.2git;
       padding-left: 10px;
       text-transform: capitalize;
       padding-top: 10px;
@@ -460,8 +460,8 @@ section.row .kompetenzen-parallax .kompetenzen-overlay {
 section .container:not(.color-box, .color-overlay-container) {
   margin-top: 30px; }
 section .margin-top-bottom {
-  margin-bottom: 50px;
-  margin-top: 50px; }
+  margin-bottom: 25px;
+  margin-top: 25px; }
 section .bottom-link {
   font-family: "pill-gothic-600mg";
   text-transform: uppercase;
