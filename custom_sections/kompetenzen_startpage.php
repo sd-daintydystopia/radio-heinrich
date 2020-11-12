@@ -25,7 +25,7 @@
 		<div class="row">
 
 				
-			<div id="bewegungsapparat-tab" class="kompetenzen-component-container col-sm-12 col-lg-3 nav-item" href="#bewegungsapparat" data-toggle="tab" role="tab" aria-controls="bewegungsapparat" aria-selected="true">
+			<div id="bewegungsapparat-tab" class="kompetenzen-component-container col-sm-12 col-lg-3 nav-item " href="#bewegungsapparat" data-toggle="tab" role="tab" aria-controls="bewegungsapparat" aria-selected="true">
 				<div class="feature-box fbox-rounded fbox-effect tab-link">
 					<div class="kompetenzen-background-img img_1"></div>
 					<div class="bottom-link">
@@ -34,7 +34,7 @@
 				</div>
 			</div>
 			
-			<div class="kompetenzen-component-container col-sm-12 col-lg-3 nav-item" data-toggle="tab" role="tab" aria-controls="" aria-selected="false">
+			<div class="kompetenzen-component-container col-sm-12 col-lg-3 nav-item " data-toggle="tab" role="tab" aria-controls="" aria-selected="false">
 				<div class="feature-box fbox-rounded fbox-effect tab-link">
 					<div class="kompetenzen-background-img img_2"></div>
 					<div class="bottom-link">

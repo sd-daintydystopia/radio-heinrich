@@ -162,6 +162,9 @@ $kompetenzen_untertitel =  [
 			console.log($(this));
 			$(this).tab('show')
 		});
+		$(".nav-tabs .nav-item ").click(function() {
+			$(".nav-tabs .nav-item ").removeClass('active');
+		});
 	</script>
 
 </body>
