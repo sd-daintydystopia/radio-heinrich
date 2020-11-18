@@ -6,7 +6,7 @@
 	$text_3 = '';
 ?>
 
-<section  id="herzdiagnostik" class="tab-pane fade show active row row-cols-1" role="tabpanel" aria-labelledby="herzdiagnostik-tab">
+<section id="bewegungsapparat" class="tab-pane fade row row-cols-1" role="tabpanel" aria-labelledby="bewegungsapparat-tab">
 	<div class="container col parallax-window kompetenzen-parallax" data-parallax="scroll" data-image-src="images/terminvergabe.png">
 	<div class="row " >
 			<div class="container col-8">
@@ -14,7 +14,7 @@
 					<div class="container color-overlay-container col-6">
 
 						<div class="kompetenzen-overlay color-overlay">
-							<img src="images/icons/kompetenzen/herzdiagnostik.svg" alt="">
+							<img src="images/icons/kompetenzen/bewegungsapparat.svg" alt="">
 							<h2><?php echo $h2; ?></h2>
 							<h1><?php echo $h1; ?></h1>
 							

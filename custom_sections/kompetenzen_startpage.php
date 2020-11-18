@@ -18,15 +18,15 @@
 								];
 ?>
 
-<section class="kompetenzen-startpage  row">
+<section class="kompetenzen-startpage nav nav-tabs row" role="tablist">
 	<div class="container col-8  clearfix">
 		<h2><?php echo $h2; ?></h2>
 		<h1><?php echo $h1; ?></h1>
 		<div class="row">
 
 				
-			<div class="kompetenzen-component-container col-sm-12 col-lg-3">
-				<div class="feature-box fbox-rounded fbox-effect">
+			<div id="bewegungsapparat-tab" class="kompetenzen-component-container col-sm-12 col-lg-3 nav-item " href="#bewegungsapparat" data-toggle="tab" role="tab" aria-controls="bewegungsapparat" aria-selected="true">
+				<div class="feature-box fbox-rounded fbox-effect tab-link">
 					<div class="kompetenzen-background-img img_1"></div>
 					<div class="bottom-link">
 						<?php echo $kompetenzen["1"]; ?>
@@ -34,8 +34,8 @@
 				</div>
 			</div>
 			
-			<div class="kompetenzen-component-container col-sm-12 col-lg-3">
-				<div class="feature-box fbox-rounded fbox-effect">
+			<div class="kompetenzen-component-container col-sm-12 col-lg-3 nav-item " data-toggle="tab" role="tab" aria-controls="" aria-selected="false">
+				<div class="feature-box fbox-rounded fbox-effect tab-link">
 					<div class="kompetenzen-background-img img_2"></div>
 					<div class="bottom-link">
 						<?php echo $kompetenzen["2"]; ?>
@@ -45,8 +45,8 @@
 				</div>
 			</div>
 			
-			<div class="kompetenzen-component-container col-sm-12 col-lg-3">
-				<div class="feature-box fbox-rounded fbox-effect">
+			<div id="herzdiagnostik-tab" class="kompetenzen-component-container col-sm-12 col-lg-3 nav-item" href="#herzdiagnostik" data-toggle="tab" role="tab" aria-controls="herzdiagnostik" aria-selected="false">
+				<div class="feature-box fbox-rounded fbox-effect tab-link">
 					<div class="kompetenzen-background-img img_3"></div>
 					<div class="bottom-link">
 						<?php echo $kompetenzen["3"]; ?>
@@ -56,8 +56,8 @@
 				</div>
 			</div>
 			
-			<div class="kompetenzen-component-container col-sm-12 col-lg-3">
-				<div class="feature-box fbox-rounded fbox-effect">
+			<div class="kompetenzen-component-container col-sm-12 col-lg-3 nav-item" data-toggle="tab" role="tab" aria-controls="" aria-selected="false">
+				<div class="feature-box fbox-rounded fbox-effect tab-link">
 					<div class="kompetenzen-background-img img_4"></div>
 					<div class="bottom-link">
 						<?php echo $kompetenzen["4"]; ?>
@@ -65,8 +65,8 @@
 				</div>
 			</div>
 			
-			<div class="kompetenzen-component-container col-sm-12 col-lg-3">
-				<div class="feature-box fbox-rounded fbox-effect">
+			<div class="kompetenzen-component-container col-sm-12 col-lg-3 nav-item" data-toggle="tab" role="tab" aria-controls="" aria-selected="false">
+				<div class="feature-box fbox-rounded fbox-effect tab-link">
 					<div class="kompetenzen-background-img img_5"></div>
 					<div class="bottom-link">
 						<?php echo $kompetenzen["5"]; ?>
@@ -74,8 +74,8 @@
 				</div>
 			</div>
 		
-			<div class="kompetenzen-component-container col-sm-12 col-lg-3">
-				<div class="feature-box fbox-rounded fbox-effect">
+			<div class="kompetenzen-component-container col-sm-12 col-lg-3 nav-item" data-toggle="tab" role="tab" aria-controls="" aria-selected="false">
+				<div class="feature-box fbox-rounded fbox-effect tab-link">
 					<div class="kompetenzen-background-img img_6">
 					</div>
 					<div class="bottom-link">
@@ -84,8 +84,8 @@
 				</div>
 			</div>
 			
-			<div class="kompetenzen-component-container col-sm-12 col-lg-3">
-				<div class="feature-box fbox-rounded fbox-effect">
+			<div class="kompetenzen-component-container col-sm-12 col-lg-3 nav-item" data-toggle="tab" role="tab" aria-controls="" aria-selected="false">
+				<div class="feature-box fbox-rounded fbox-effect tab-link">
 					<div class="kompetenzen-background-img img_7"></div>
 					<div class="bottom-link">
 						<?php echo $kompetenzen["7"]; ?>
@@ -93,8 +93,8 @@
 				</div>
 			</div>
 			
-			<div class="kompetenzen-component-container col-sm-12 col-lg-3">
-				<div class="feature-box fbox-rounded fbox-effect">
+			<div class="kompetenzen-component-container col-sm-12 col-lg-3 nav-item" data-toggle="tab" role="tab" aria-controls="" aria-selected="false">
+				<div class="feature-box fbox-rounded fbox-effect tab-link">
 					<div class="kompetenzen-background-img img_8"></div>
 					<div class="bottom-link">
 						<?php echo $kompetenzen["8"]; ?>
