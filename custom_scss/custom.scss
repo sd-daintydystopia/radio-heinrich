@@ -6,10 +6,10 @@ $TEXT_GREY: #4e5859;
 $HOVER_GREY: #839192;
 
 @mixin bottom-link {
-	font-family: "pill-gothic-600mg";
+    font-family: "pill-gothic-600mg";
     text-transform: uppercase;
     font-size: 0.8em;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font-weight: 700;
     color: #4e5859;
 }
@@ -150,6 +150,7 @@ div#wrapper {
 
 }
 .nav-boxes-startpage {
+	font-family: 'Open Sans', sans-serif;
 	margin-top: -50px;
 	&>div.container>div.row {
 	  min-height:  150px;
@@ -172,7 +173,7 @@ div#wrapper {
 	font-size: 1.5em;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
-	padding: 0 5px 5px 5px;
+	padding: 0 10px 25px 10px;
 
 	&:hover {
 		// color: #afafaf;
@@ -184,7 +185,7 @@ div#wrapper {
 	hr {
 		border-top: 2px solid #fff;
 		width: 33%;
-		margin-top: 50%;
+		margin-top: calc(50% - 25px);
 		margin-right: 66%;
 	}
 }
@@ -215,11 +216,14 @@ div#wrapper {
 }
 /*WILKOMMEN*/
 section.welcome-startpage {
-	margin-top: 60px;
+	margin-top: 20px;
+	.container {
+		margin-top: 30px;
+	}
 	h1,h2 {
 		line-height: 1;
 		// font-size: 34px;
-		font-size: 2.4em;
+		font-size: 2.8em;
 		font-family: "pill-gothic-600mg";
 		text-transform: uppercase;
 		margin: 0;
@@ -236,6 +240,7 @@ section.welcome-startpage {
 		line-height: 1;
 		margin-bottom: 0.5em;
 		font-size: 1.2em;
+		text-transform: uppercase;
 		font-family: "pill-gothic-600mg";
 		font-weight: 700;
 	}
@@ -542,11 +547,13 @@ section.row {
 	h3, a {
 		color: #afafaf;
 		font-family: openSans;
-		font-size: 1em;
+		font-size: .75em;
 	}
 	h3 {
 		font-weight: 700;
 		margin-bottom: 10px;
+		letter-spacing: 1px;
+		font-size: .85em;
 	}
 	a {
 		display: block;
