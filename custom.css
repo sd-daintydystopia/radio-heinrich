@@ -452,7 +452,10 @@ section.row .kompetenzen-parallax .kompetenzen-overlay {
   font-size: 1em; }
 #footer h3 {
   font-weight: 700;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-family: "pill-gothic-600mg";
+  text-transform: uppercase;
+  letter-spacing: 1px; }
 #footer a {
   display: block;
   font-weight: 300; }
