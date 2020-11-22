@@ -1,6 +1,7 @@
 <?php 
  $h1 = 'Impressionen';
  $h2 = 'Praxis';
+ $text_block1 = "Unsere Praxis bietet sowohl Leistungen aus dem diagnostischen als auch aus dem therapeutischen Bereich an. Immer abgestimmt auf Ihre individuellen Bedürfnisse wählt unser erfahrenes Ärzteteam die für Sie passende Untersuchung und Behandlung.";
  $img_src1 = 'images/Fotos/Start/impressionen/carousel-s01.jpg';
  $img_src2 = 'images/Fotos/Start/impressionen/carousel-s02.jpg';
  $img_src3 = 'images/Fotos/Start/impressionen/carousel-w01.jpg';
@@ -21,6 +22,9 @@
 				<h1>
 					<?php echo $h1; ?>    
 				</h1>
+				<p>
+					<?php echo $text_block1; ?>
+				</p>
 			</div>
 		</div>
 	</div>
