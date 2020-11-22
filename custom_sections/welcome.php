@@ -22,7 +22,7 @@
 				</span>
 			</div>
 			<div class="col welcome-container-image hidden-sm-down">
-				<img src="images/welcome.png" alt="">
+				<img src="images/Fotos/Start/intro.jpg" alt="">
 			</div>
 		</div>
 	</div>
