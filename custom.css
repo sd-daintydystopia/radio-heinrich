@@ -420,8 +420,16 @@ section.praxis_impressionen div.item img {
   width: auto; }
 
 /* =================== SUBPAGES ========================*/
+section .subpage b, section .subpage p {
+  font-size: 1.1rem; }
+section .subpage h1, section .subpage h2, section .subpage h3, section .subpage p, section .subpage b, section .subpage span {
+  color: #fff; }
+section .subpage hr {
+  margin-right: 34%;
+  width: 66%;
+  border-color: #fff; }
 section div.color-overlay-container {
-  height: 500px;
+  height: 300px;
   position: relative; }
   section div.color-overlay-container div.color-overlay {
     position: absolute;
@@ -431,36 +439,60 @@ section div.color-overlay-container {
     section div.color-overlay-container div.color-overlay img {
       width: 200px;
       height: auto; }
+section .bottom-stripe {
+  padding-top: 20px;
+  background-color: #4e5859; }
+section section.subpage-tab-content {
+  font-size: 1rem;
+  background-color: #fff; }
+  section section.subpage-tab-content div.tab-main {
+    padding-top: 60px; }
+    section section.subpage-tab-content div.tab-main p {
+      color: #4e5859; }
+  section section.subpage-tab-content div.sidebar {
+    padding-top: 30px; }
+    section section.subpage-tab-content div.sidebar div.termin-sidebar {
+      padding: 30px 20px 10px 20px;
+      background-color: #4e5859;
+      color: #fff; }
+    section section.subpage-tab-content div.sidebar div.ansprechpartner_herzdiagnostik img {
+      width: 100%; }
+    section section.subpage-tab-content div.sidebar div.ansprechpartner_herzdiagnostik div.ansprechpartner_text {
+      background-color: #4e5859; }
+      section section.subpage-tab-content div.sidebar div.ansprechpartner_herzdiagnostik div.ansprechpartner_text span {
+        display: block; }
 
 /*KOMPETENZEN*/
 section.row .kompetenzen-parallax .kompetenzen-overlay {
-  position: absolute;
-  height: 100%; }
+  position: absolute; }
 
 /*==================== FOOTER =========================*/
-#footer .container {
-  padding-top: 15px; }
-#footer h3, #footer a {
-  color: #afafaf;
-  font-family: openSans;
-  font-size: .75em; }
-#footer h3 {
-  font-weight: 700;
-  margin-bottom: 10px;
-  letter-spacing: 1px;
-  font-size: .85em; }
-#footer a {
-  display: block;
-  font-weight: 300; }
-#footer .footer-logo-wrp {
-  position: relative;
-  height: 30px; }
-#footer .footer-logo {
-  position: absolute;
-  margin-bottom: 0;
-  right: 0;
-  width: 25%;
-  left: 75%; }
+.dark footer#footer, footer#footer.dark {
+  border-top-color: #4e5859; }
+  .dark footer#footer .container, footer#footer.dark .container {
+    padding-top: 15px; }
+  .dark footer#footer h3, .dark footer#footer a, footer#footer.dark h3, footer#footer.dark a {
+    color: #afafaf;
+    font-family: openSans;
+    font-size: .85em;
+    display: block; }
+  .dark footer#footer h3, footer#footer.dark h3 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-size: .85em; }
+  .dark footer#footer a, footer#footer.dark a {
+    display: block;
+    font-weight: 300; }
+  .dark footer#footer .footer-logo-wrp, footer#footer.dark .footer-logo-wrp {
+    position: relative;
+    height: 60px; }
+  .dark footer#footer .footer-logo, footer#footer.dark .footer-logo {
+    position: absolute;
+    margin-bottom: 0;
+    right: 0;
+    width: 35%;
+    left: 65%; }
 
 /*============== GENERAL STUFF FOR ALL CONTAINERS======== */
 section .container:not(.color-box, .color-overlay-container) {

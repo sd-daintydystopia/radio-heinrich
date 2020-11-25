@@ -508,8 +508,23 @@ section.praxis_impressionen {
 
 /* =================== SUBPAGES ========================*/
 section {
+	.subpage {
+		.parallax-window {
+		}
+		b,p {
+			font-size: 1.1rem;
+		}
+		h1,h2,h3,p,b,span {
+			color: #fff;	
+		}
+		hr {
+			margin-right: 34%;
+			width: 66%; 
+			border-color: #fff;
+		}
+	}
 	div.color-overlay-container {
-		height: 500px;
+		height: 300px;
 		position: relative;
 		div.color-overlay {
 			position: absolute;
@@ -522,6 +537,40 @@ section {
 			}
 		}
 	}
+	
+	.bottom-stripe {
+		padding-top: 20px;
+		background-color: $TEXT_GREY;
+	}
+	section.subpage-tab-content {
+		font-size: 1rem;
+		background-color: #fff;
+		div.tab-main {
+			padding-top: 60px;
+			p {
+				color: $TEXT_GREY;
+			}
+		}
+		div.sidebar {
+			padding-top: 30px;
+			div.termin-sidebar {
+				padding: 30px 20px 10px 20px;
+				background-color: $TEXT_GREY;
+				color: #fff;
+			}
+			div.ansprechpartner_herzdiagnostik {
+				img {
+					width: 100%;
+				}
+				div.ansprechpartner_text {
+					background-color: $TEXT_GREY;
+					span {
+						display: block;
+					}
+				}
+			}
+		}
+	}
 }
 
 /*KOMPETENZEN*/
@@ -530,7 +579,7 @@ section.row {
 
 			.kompetenzen-overlay {
 				position: absolute;
-				height: 100%;
+				// height: 50%;
 			
 				
 			}
@@ -540,14 +589,17 @@ section.row {
 
 
 /*==================== FOOTER =========================*/
-#footer {
+.dark footer#footer, footer#footer.dark {
+	border-top-color: $TEXT_GREY;
 	.container {
 		padding-top: 15px;
 	}
+	
 	h3, a {
 		color: #afafaf;
 		font-family: openSans;
-		font-size: .75em;
+		font-size: .85em;
+		display: block;
 	}
 	h3 {
 		font-weight: 700;
@@ -561,14 +613,14 @@ section.row {
 	}
 	.footer-logo-wrp {
 		position:relative;
-		height: 30px;
+		height: 60px;
 	}
 	.footer-logo {
 		position: absolute;
 		margin-bottom: 0;
-		right:0;
-		width: 25%;
-		left: 75%;
+		right: 0;
+		width: 35%;
+		left: 65%;
 	}
 }
 

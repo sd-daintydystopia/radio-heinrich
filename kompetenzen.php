@@ -133,7 +133,7 @@ $kompetenzen_untertitel =  [
 		$('.parallax-window').parallax({
 			imageSrc: 'images/terminvergabe.png',
 			naturalWidth: 1680,
-    		naturalHeight: 350
+    		naturalHeight: 350,
 		});
 
 		console.log($('.parallax-window').data());
