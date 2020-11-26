@@ -519,6 +519,7 @@ section .bottom-link {
   letter-spacing: 2px;
   font-weight: 700;
   color: #4e5859; }
+
 section h1, section h2 {
   line-height: 1;
   font-size: 2.4em;
@@ -530,6 +531,24 @@ section h1 {
   margin-bottom: 30px; }
 section h2 {
   font-weight: 300; }
+
+section h3, section h4 {
+  line-height: 1;
+  font-family: "pill-gothic-600mg";
+  text-transform: uppercase;
+  margin: 0; }
+section h3 {
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;}
+section h4 {
+  font-weight: 400;
+  font-size: 1em;
+  letter-spacing: 2px;
+  margin-bottom: 0.5em;}
+section p {
+  font-family: openSans;
+  line-height: 1.5;}
 
 #wrapper #header #header-wrap div.container {
   padding: 0 0; }
@@ -546,5 +565,37 @@ section h2 {
 
 .owl-dots {
   display: none !important; }
+
+#page-title.page-title-parallax h1 {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+/*============== SUBPAGE TITLES ======== */
+#page-title.page-title-parallax h1, h2 {
+    padding: 0;
+    margin: 0;
+    font-family: "pill-gothic-600mg";
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+	text-shadow: 5px 5px 5px rgba(0,0,0,0.1) !important;
+	border-bottom: none;
+}
+#page-title.page-title-parallax h1 {
+    font-weight: 600;
+}
+#page-title.page-title-parallax h2 {
+    color: #fff;
+    font-weight: 300;
+}
+
+
+
 
 /*# sourceMappingURL=custom.css.map */
