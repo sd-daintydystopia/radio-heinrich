@@ -69,8 +69,7 @@ body p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   font-weight: 400;
-  line-height: 1.5;
-  text-align: justify; }
+  line-height: 1.5; }
 
 .menu-container > li.menu-item:hover a.menu-link div {
   color: #839192; }
@@ -420,6 +419,11 @@ section.praxis_impressionen div.item img {
   width: auto; }
 
 /* =================== SUBPAGES ========================*/
+section.page-header-img {
+  height: 300px;
+  background-color: transparent; }
+section .titelbild {
+  background-color: transparent; }
 section .subpage b, section .subpage p {
   font-size: 1.1rem; }
 section .subpage h1, section .subpage h2, section .subpage h3, section .subpage p, section .subpage b, section .subpage span {
@@ -449,16 +453,41 @@ section section.subpage-tab-content {
     padding-top: 60px; }
     section section.subpage-tab-content div.tab-main p {
       color: #4e5859; }
+  section section.subpage-tab-content section.text_main_second {
+    margin-top: 30px; }
+    section section.subpage-tab-content section.text_main_second h3 {
+      color: #4e5859; }
+  section section.subpage-tab-content section.text_main_third {
+    margin-top: 30px; }
+    section section.subpage-tab-content section.text_main_third h3 {
+      color: #4e5859; }
+    section section.subpage-tab-content section.text_main_third .dauer_boxes {
+      margin-bottom: 30px; }
+      section section.subpage-tab-content section.text_main_third .dauer_boxes .container {
+        position: relative; }
+        section section.subpage-tab-content section.text_main_third .dauer_boxes .container .dauer_boxes_content {
+          background-color: #4e5859;
+          height: 220px; }
+  section section.subpage-tab-content .content_full_width .bg-grey.voruntersuchung {
+    background-color: #ededed; }
+    section section.subpage-tab-content .content_full_width .bg-grey.voruntersuchung .col-6 .voruntersuchung_container {
+      position: relative;
+      border: 1px solid #4E5859;
+      padding: 10px;
+      min-height: 420px; }
   section section.subpage-tab-content div.sidebar {
     padding-top: 30px; }
     section section.subpage-tab-content div.sidebar div.termin-sidebar {
       padding: 30px 20px 10px 20px;
       background-color: #4e5859;
       color: #fff; }
+    section section.subpage-tab-content div.sidebar div.ansprechpartner_herzdiagnostik .ansprechpartner_img_container {
+      margin-top: 30px; }
     section section.subpage-tab-content div.sidebar div.ansprechpartner_herzdiagnostik img {
       width: 100%; }
     section section.subpage-tab-content div.sidebar div.ansprechpartner_herzdiagnostik div.ansprechpartner_text {
-      background-color: #4e5859; }
+      background-color: #4e5859;
+      padding: 20px; }
       section section.subpage-tab-content div.sidebar div.ansprechpartner_herzdiagnostik div.ansprechpartner_text span {
         display: block; }
 

@@ -59,7 +59,7 @@
 				</button>
 			</h5>
 		</div>
-		<div id="collapseF" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+		<div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
 			<div class="card-body">
 				Wichtig für den gerichteten Weitertransport des Blutes durch das Herz ist die regelrechte Funktion der Herzklappen. Kommt es hier zu Funktionsstörungen, kann die Leistungsfähigkeit des Herzens deutlich eingeschränkt sein. In erster Linie werden die Herzklappen mittels Echokardiographie untersucht, allerdings gibt es immer wieder Situationen, in denen sich hierdurch nicht alle Fragen beantworten lassen. In einem solchen Fall kann eine MRTUntersuchung oftmals weitere wichtige Informationen liefern.
 			</div>
