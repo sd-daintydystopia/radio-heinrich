@@ -211,13 +211,59 @@ Teilbereiche des Herzens beziehungsweise bei folgenden Fragen:';
 							</div>
 						</div>
 					</div>
-				</section>
-				<section class="content_full_width">
-					<div class="rwo">
-						<div class="container col-12">
-							
+					<section class="content_full_width">
+						<div class="row bg-grey voruntersuchung">
+							<div class="container col-12">
+								<div class="row">
+									<div class="container col-8">
+										<div class="row">
+											<div class="container col-8">
+												<div class="row">
+													<div class="container col-6">
+														<div class="voruntersuchung_container">
+															bla 
+														</div>	
+													</div>
+													<div class="container col-6">
+														<div class="voruntersuchung_container">
+															bla 
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="container col-4">
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
-					</div>
+						<div class="row">
+							<div class="container col-12">
+								<div class="row">
+									<div class="container col-8">
+										<div class="row">
+											<div class="container col-8">
+												<div class="row">
+													<div class="container col-6">
+														bla 
+													</div>
+													<div class="container col-6">
+														bla
+													</div>
+
+												</div>
+											</div>
+											<div class="container col-4">
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
 				</section>
 			</div>
 		</div>

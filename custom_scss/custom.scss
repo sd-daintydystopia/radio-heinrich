@@ -580,6 +580,20 @@ section {
 				} 
 
 			}
+			
+		}
+		.content_full_width {
+			.bg-grey.voruntersuchung {
+				background-color: $BG_GREY;
+				.col-6 {
+					.voruntersuchung_container {
+						position: relative;
+						border: 1px solid #4E5859;
+						padding: 10px;
+						min-height: 420px;
+					}
+				}
+			}
 		}
 		div.sidebar {
 			padding-top: 30px;

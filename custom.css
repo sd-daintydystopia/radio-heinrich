@@ -468,6 +468,13 @@ section section.subpage-tab-content {
         section section.subpage-tab-content section.text_main_third .dauer_boxes .container .dauer_boxes_content {
           background-color: #4e5859;
           height: 220px; }
+  section section.subpage-tab-content .content_full_width .bg-grey.voruntersuchung {
+    background-color: #ededed; }
+    section section.subpage-tab-content .content_full_width .bg-grey.voruntersuchung .col-6 .voruntersuchung_container {
+      position: relative;
+      border: 1px solid #4E5859;
+      padding: 10px;
+      min-height: 420px; }
   section section.subpage-tab-content div.sidebar {
     padding-top: 30px; }
     section section.subpage-tab-content div.sidebar div.termin-sidebar {
