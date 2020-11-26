@@ -7,14 +7,16 @@
 		<div class="card-header" id="headingOne">
 			<h5 class="mb-0">
 				<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-				Collapsible Group Item #1
+				Koronare Herzerkrankung / Herzkranzgefäße
+
 				</button>
 			</h5>
 		</div>
 
 		<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
 			<div class="card-body">
-				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				Aufgrund der genauen Beurteilbarkeit des Herzmuskels kann man durch die MRT-Untersuchung des Herzens Durchblutungsstörungen bei hochgradigen Einengungen der Herzkranzgefäße bereits darstellen bevor es zu einem Herzinfarkt kommt. Die ist besonders hilfreich, wenn aufgrund von Voruntersuchungen wie zB einem Belastungs-EKG noch Unklarheiten bestehen. Auch nach Erleiden eines Herzinfarkts kann dieser mittels Herz MRT dargestellt werden und beispielsweise bestimmt werden, wie groß der davon betroffene Anteil des Herzens ist. Hilfreich ist dies zB bei der Entscheidung, ob ein nachfolgender Eingriff (Herzkatheter / Herz- Operation) sinnvoll ist, da überprüft werden kann, wieviel Herzmuskel noch zu retten wäre und wieviel unwiederbringlich vernarbt ist.
+
 			</div>
 		</div>
 	</div>
@@ -22,13 +24,16 @@
 		<div class="card-header" id="headingTwo">
 			<h5 class="mb-0">
 				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-				Collapsible Group Item #2
+
+				Myokarditis/Perikarderkrankung
+
+
 				</button>
 			</h5>
 		</div>
 		<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 			<div class="card-body">
-				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				Durch die gute Beurteilbarkeit unterschiedlicher Gewebe, lassen sich Entzündungen des Herzmuskels und auch des Herzbeutels gut mittels MRT-Untersuchung des Herzens nachweisen oder ausschließen.
 			</div>
 		</div>
 	</div>
@@ -36,13 +41,13 @@
 		<div class="card-header" id="headingThree">
 			<h5 class="mb-0">
 				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-				Collapsible Group Item #3
+				Kardiale und parakardiale Raumforderungen/Tumore
 				</button>
 			</h5>
 		</div>
 		<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
 			<div class="card-body">
-				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				Falls bereits mit anderen bildgebenden Verfahren Raumforderungen im Bereich des Herzens nachgewiesen wurden oder ein Verdacht besteht, können diese mittels MRT-Untersuchung des Herzens genauer untersucht und abgeklärt werden. Hierbei können unter anderem die exakte anatomische Lage aber auch die Art bzw. der Ursprung der Raumforderung bestimmt werden.
 			</div>
 		</div>
 	</div>
@@ -50,13 +55,13 @@
 		<div class="card-header" id="headingThree">
 			<h5 class="mb-0">
 				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-				Collapsible Group Item #4
+				Erworbene Herzklappenfehler
 				</button>
 			</h5>
 		</div>
 		<div id="collapseF" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
 			<div class="card-body">
-				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				Wichtig für den gerichteten Weitertransport des Blutes durch das Herz ist die regelrechte Funktion der Herzklappen. Kommt es hier zu Funktionsstörungen, kann die Leistungsfähigkeit des Herzens deutlich eingeschränkt sein. In erster Linie werden die Herzklappen mittels Echokardiographie untersucht, allerdings gibt es immer wieder Situationen, in denen sich hierdurch nicht alle Fragen beantworten lassen. In einem solchen Fall kann eine MRTUntersuchung oftmals weitere wichtige Informationen liefern.
 			</div>
 		</div>
 	</div>
@@ -64,13 +69,13 @@
 		<div class="card-header" id="headingThree">
 			<h5 class="mb-0">
 				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-				Collapsible Group Item #5
+				Kardiomyopathien
 				</button>
 			</h5>
 		</div>
 		<div id="collapseFive" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
 			<div class="card-body">
-				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+				Es gibt eine Vielzahl an Gründen warum der Herzmuskel nicht oder nicht mehr uneingeschränkt funktions- und Leistungsfähig ist. Beispiele hierfür sind bestimmte Ablagerungen im Herzmuskel, eine übermäßige Verdickung (Hypertrophie) des Muskels oder eine Vergrößerung des Herzens (Dilatation). Eine MRT-Untersuchung des Herzens ist eine hilfreiche Methode, um die mögliche Ursache einer Funktionseinschränkung zu klären oder andere Ursachen auszuschließen.
 			</div>
 		</div>
 	</div>
