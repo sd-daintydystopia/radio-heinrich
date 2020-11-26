@@ -208,28 +208,18 @@ section.terminvergabe-startpage {
     text-align: center; }
     section.terminvergabe-startpage .terminvergabe-floating-button-container h1, section.terminvergabe-startpage .terminvergabe-floating-button-container h2, section.terminvergabe-startpage .terminvergabe-floating-button-container h3, section.terminvergabe-startpage .terminvergabe-floating-button-container h4 {
       color: #fff;
-      font-family: "pill-gothic-600mg";
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      font-weight: 700;
-      text-align: center; }
+      font-family: OpenSans; }
     section.terminvergabe-startpage .terminvergabe-floating-button-container h4 {
       font-family: OpenSansL; }
     section.terminvergabe-startpage .terminvergabe-floating-button-container button {
-      display: inline-block;
-      position: relative;
-      cursor: crosshair;
-      font-family: "pill-gothic-600mg";
-      text-transform: uppercase;
-      font-size: 0.8em;
-      letter-spacing: 2px;
-      font-weight: 700;
-      background-color: #4e5859;
-      color: #ebebec;
-      border: 2px solid #ebebec;
+      border: 3px solid #fff;
+      color: #fff;
       border-radius: 2px;
+      line-height: 2;
       padding: 10px 20px;
-      text-shadow: none; }
+      margin: 20px auto;
+      background-color: #4e5859;
+      width: 75%; }
 
 /*KOMPETENZEN*/
 section.kompetenzen-startpage {
@@ -477,7 +467,6 @@ section.row .kompetenzen-parallax .kompetenzen-overlay {
   position: absolute; }
 
 /*==================== FOOTER =========================*/
-
 .dark footer#footer, footer#footer.dark {
   border-top-color: #4e5859; }
   .dark footer#footer .container, footer#footer.dark .container {
@@ -505,7 +494,6 @@ section.row .kompetenzen-parallax .kompetenzen-overlay {
     width: 35%;
     left: 65%; }
 
-
 /*============== GENERAL STUFF FOR ALL CONTAINERS======== */
 section .container:not(.color-box, .color-overlay-container) {
   margin-top: 30px; }
@@ -519,7 +507,6 @@ section .bottom-link {
   letter-spacing: 2px;
   font-weight: 700;
   color: #4e5859; }
-
 section h1, section h2 {
   line-height: 1;
   font-size: 2.4em;
@@ -531,24 +518,6 @@ section h1 {
   margin-bottom: 30px; }
 section h2 {
   font-weight: 300; }
-
-section h3, section h4 {
-  line-height: 1;
-  font-family: "pill-gothic-600mg";
-  text-transform: uppercase;
-  margin: 0; }
-section h3 {
-  font-weight: 700;
-  font-size: 1.2em;
-  margin-bottom: 0.5em;}
-section h4 {
-  font-weight: 400;
-  font-size: 1em;
-  letter-spacing: 2px;
-  margin-bottom: 0.5em;}
-section p {
-  font-family: openSans;
-  line-height: 1.5;}
 
 #wrapper #header #header-wrap div.container {
   padding: 0 0; }
@@ -565,37 +534,5 @@ section p {
 
 .owl-dots {
   display: none !important; }
-
-#page-title.page-title-parallax h1 {
-    font-size: 40px;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
-
-
-/*============== SUBPAGE TITLES ======== */
-#page-title.page-title-parallax h1, h2 {
-    padding: 0;
-    margin: 0;
-    font-family: "pill-gothic-600mg";
-    line-height: 1;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: #fff;
-    font-size: 2.8rem;
-    text-transform: uppercase;
-	text-shadow: 5px 5px 5px rgba(0,0,0,0.1) !important;
-	border-bottom: none;
-}
-#page-title.page-title-parallax h1 {
-    font-weight: 600;
-}
-#page-title.page-title-parallax h2 {
-    color: #fff;
-    font-weight: 300;
-}
-
-
-
 
 /*# sourceMappingURL=custom.css.map */
