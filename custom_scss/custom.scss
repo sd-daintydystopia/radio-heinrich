@@ -106,7 +106,7 @@ body p {
     font-size: 1em;
     font-weight: 400;
     line-height: 1.5;
-    text-align: justify;
+    // text-align: justify;
 }
 .menu-container > li.menu-item{
 	&:hover {
@@ -508,6 +508,13 @@ section.praxis_impressionen {
 
 /* =================== SUBPAGES ========================*/
 section {
+	&.page-header-img {
+		height: 300px;
+		background-color: rgba(0,0,0,0);
+	}
+	.titelbild{
+		background-color: rgba(0,0,0,0);
+	}
 	.subpage {
 		.parallax-window {
 		}
@@ -551,6 +558,29 @@ section {
 				color: $TEXT_GREY;
 			}
 		}
+		section.text_main_second {
+			margin-top: 30px;
+			h3 {
+				color: $TEXT_GREY;
+			}
+		}
+		section.text_main_third {
+			margin-top: 30px;
+			h3 {
+				color: $TEXT_GREY;
+			}
+			.dauer_boxes {
+				margin-bottom: 30px;
+				.container{
+					position: relative; 
+					.dauer_boxes_content {
+						background-color: $TEXT_GREY;
+						height:220px;
+					}
+				} 
+
+			}
+		}
 		div.sidebar {
 			padding-top: 30px;
 			div.termin-sidebar {
@@ -559,11 +589,15 @@ section {
 				color: #fff;
 			}
 			div.ansprechpartner_herzdiagnostik {
+				.ansprechpartner_img_container {
+					margin-top: 30px;
+				}
 				img {
 					width: 100%;
 				}
 				div.ansprechpartner_text {
 					background-color: $TEXT_GREY;
+					padding: 20px;
 					span {
 						display: block;
 					}
