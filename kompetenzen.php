@@ -19,7 +19,7 @@ $kompetenzen_untertitel =  [
 ?>
 
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html dir="ltr" lang="de-DE">
 <head>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -41,7 +41,7 @@ $kompetenzen_untertitel =  [
 
 	<!-- Document Title
 	============================================= -->
-	<title>Services | Canvas</title>
+	<title>Kompetenzen | RADIOLOGIE HEINRICHSALLEE</title>
 
 </head>
 
@@ -90,10 +90,20 @@ $kompetenzen_untertitel =  [
 	
 		<!-- Page Title
 		============================================= -->
+        <?php 
+			include 'custom_sections/kompetenzen/kompetenzen-pagetitle.php';
+		?><!-- #page-title end -->
+
+
+		<!-- Content 
+		============================================= -->
+        <?php 
+			include 'custom_sections/kompetenzen/kompetenzen-intro.php';
+		?><!-- #intro end -->
+                        
+                
 		<!-- <section id="page-title"> -->
 		<?php include 'custom_sections/kompetenzen_startpage.php'; ?>
-
-
 		<!-- Content Tabs Kompetenzen
 		============================================= -->
 		<section class="tab-content">
@@ -133,7 +143,7 @@ $kompetenzen_untertitel =  [
 		$('.parallax-window').parallax({
 			imageSrc: 'images/terminvergabe.png',
 			naturalWidth: 1680,
-    		naturalHeight: 350
+    		naturalHeight: 350,
 		});
 
 		console.log($('.parallax-window').data());
