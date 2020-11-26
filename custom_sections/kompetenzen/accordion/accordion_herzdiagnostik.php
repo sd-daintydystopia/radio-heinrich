@@ -8,6 +8,7 @@
 			<h5 class="mb-0">
 				<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 				Koronare Herzerkrankung / Herzkranzgefäße
+
 				</button>
 			</h5>
 		</div>
@@ -15,6 +16,7 @@
 		<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
 			<div class="card-body">
 				Aufgrund der genauen Beurteilbarkeit des Herzmuskels kann man durch die MRT-Untersuchung des Herzens Durchblutungsstörungen bei hochgradigen Einengungen der Herzkranzgefäße bereits darstellen bevor es zu einem Herzinfarkt kommt. Die ist besonders hilfreich, wenn aufgrund von Voruntersuchungen wie zB einem Belastungs-EKG noch Unklarheiten bestehen. Auch nach Erleiden eines Herzinfarkts kann dieser mittels Herz MRT dargestellt werden und beispielsweise bestimmt werden, wie groß der davon betroffene Anteil des Herzens ist. Hilfreich ist dies zB bei der Entscheidung, ob ein nachfolgender Eingriff (Herzkatheter / Herz- Operation) sinnvoll ist, da überprüft werden kann, wieviel Herzmuskel noch zu retten wäre und wieviel unwiederbringlich vernarbt ist.
+
 			</div>
 		</div>
 	</div>
@@ -22,7 +24,10 @@
 		<div class="card-header" id="headingTwo">
 			<h5 class="mb-0">
 				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
 				Myokarditis/Perikarderkrankung
+
+
 				</button>
 			</h5>
 		</div>
